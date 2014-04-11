@@ -1,0 +1,144 @@
+body{
+background: rgb(89,89,89); /* Old browsers */
+background: -moz-linear-gradient(-45deg, rgba(89,89,89,1) 21%, rgba(28,28,28,1) 32%, rgba(44,44,44,1) 50%, rgba(17,17,17,1) 54%, rgba(43,43,43,1) 65%, rgba(17,17,17,1) 68%, rgba(19,19,19,1) 86%, rgba(71,71,71,1) 88%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(21%,rgba(89,89,89,1)), color-stop(32%,rgba(28,28,28,1)), color-stop(50%,rgba(44,44,44,1)), color-stop(54%,rgba(17,17,17,1)), color-stop(65%,rgba(43,43,43,1)), color-stop(68%,rgba(17,17,17,1)), color-stop(86%,rgba(19,19,19,1)), color-stop(88%,rgba(71,71,71,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg, rgba(89,89,89,1) 21%,rgba(28,28,28,1) 32%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 54%,rgba(43,43,43,1) 65%,rgba(17,17,17,1) 68%,rgba(19,19,19,1) 86%,rgba(71,71,71,1) 88%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg, rgba(89,89,89,1) 21%,rgba(28,28,28,1) 32%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 54%,rgba(43,43,43,1) 65%,rgba(17,17,17,1) 68%,rgba(19,19,19,1) 86%,rgba(71,71,71,1) 88%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg, rgba(89,89,89,1) 21%,rgba(28,28,28,1) 32%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 54%,rgba(43,43,43,1) 65%,rgba(17,17,17,1) 68%,rgba(19,19,19,1) 86%,rgba(71,71,71,1) 88%); /* IE10+ */
+background: linear-gradient(135deg, rgba(89,89,89,1) 21%,rgba(28,28,28,1) 32%,rgba(44,44,44,1) 50%,rgba(17,17,17,1) 54%,rgba(43,43,43,1) 65%,rgba(17,17,17,1) 68%,rgba(19,19,19,1) 86%,rgba(71,71,71,1) 88%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#595959', endColorstr='#474747',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+div#divLeft {
+width: 40%;
+margin-left: 6%;
+margin-right: 3%;
+float: left;
+}
+div#divRight {
+width: 40%;
+float: left;
+margin-left: 3%;
+margin-right: 3%;
+}
+h1{
+	color: white;
+	font-family: 'Poiret One', cursive;
+}
+div#divLeft p, div#divRight{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	color: white;
+}
+
+#footer{
+	background-color: black;
+	color: white;
+	height: 100%;
+	width: 100%;
+	clear: both;
+	font-size: 14px;
+}
+#footerNote{
+	padding-top: 2px;
+	text-align: center;
+}
+
+.tooltip{
+    display: inline;
+    position: relative;
+}
+.tooltip:hover:after{
+    background: #333;
+    background: rgba(0,0,0,.8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+#main-nav {
+	float: left;
+	width: 100%;
+	/*border: 1px solid #666;*/
+	border-radius: 10px;
+	box-shadow: .2em .2em .5em #999;
+	background-color: #ccc;
+	font-weight: bold;
+	/*padding-left: 20%;*/
+	font-family: 'Poiret One', cursive;
+}
+
+#main-nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	position: relative;
+	left: 50%;
+}
+
+#main-nav ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+}
+
+#main-nav ul li a {
+	padding: 10px 25px;
+	display: block;
+	text-decoration: none;
+	color: black;
+}
+
+#main-nav ul li a:hover {
+	background-color: #ccc;
+	color: white;
+	font-weight: bold;
+	color: black;
+	box-shadow: 2px 2px 2px 2px rgba(22, 33, 55, 1); 
+	border-radius: 5x;
+}
+
+
+#imageDiv img{
+	width: 250px;
+	height: 250px;
+	border: 2px;
+	padding-left: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#imageDiv li{
+	float: left;
+	padding-left: 1%;
+	list-style-type: none;
+}
+div#img1 div#img2 div#img3 div#img4 {
+	border: 1px solid blue;
+	padding: 1px;
+	background-color: white;
+	margin: 10px 0 10px 20px;
+}
+
+a:hover #img1, a:focus #img1 {
+-webkit-transform: scale(1.1) rotate(-2deg);
+-webkit-perspective: 600;
+}
+a:hover #img2, a:focus #img2 {
+-webkit-transform: scale(1.1) rotate(2deg);
+-webkit-perspective: 600;
+}
+a:hover #img3, a:focus #img3 {
+-webkit-transform: scale(1.1) rotate(-2deg);
+-webkit-perspective: 600;
+}
+a:hover #img4, a:focus #img4 {
+-webkit-transform: scale(1.1) rotate(2deg);
+-webkit-perspective: 600;
+}
+}
